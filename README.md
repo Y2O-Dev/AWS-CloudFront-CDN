@@ -1,1 +1,3 @@
-# AWS-CloudFront-CDN
+# Amazon CloudFront & Content Delivery Network (CDN)–AWS Hands-on Lab
+In this hands-on, I implemented the the use of Amazon CloudFront as a Content Delivery Network. 
+Summarily, an S3 bucket was created on AWS, and an image file uploaded to the bucket. Also, an directory was created in the bucket that'll contain the error files.Neccesary permission were granted to the bucket, and the object url tested in a web browser. The CloudFront was configured afterward which will serve as CDN for the object in the S3 bucket, and the cloudfront domain name was also tested in a web browser. The loading speed of both the object url and cloudfront domain name was compared and it turns out that the cloudfront domain name loaded the page faster than the former. 
