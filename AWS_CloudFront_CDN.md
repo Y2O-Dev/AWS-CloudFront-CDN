@@ -14,6 +14,8 @@ Amazon CloudFront is a content delivery network operated by Amazon Web Services,
 
 ![s3_buckett](https://user-images.githubusercontent.com/114786664/199708608-48562e0c-bc8a-4e0e-8d31-9b4a62d1c628.png)
 
+---
+
 ## Uploading an image file
 
 * An image file smiley.jpg was uploaded to the bucket.
@@ -21,6 +23,8 @@ Amazon CloudFront is a content delivery network operated by Amazon Web Services,
 ![s3_upload](https://user-images.githubusercontent.com/114786664/199709935-34026265-4687-4f4d-ae75-326b683760af.png)
 
 ![upload_success](https://user-images.githubusercontent.com/114786664/199709995-9da8a77a-3d1d-4f8b-814f-e1139d828620.png)
+
+---
 
 ## Create a Custom_error directory in the bucket
 
@@ -30,15 +34,19 @@ Amazon CloudFront is a content delivery network operated by Amazon Web Services,
 
 ![error_folder_content](https://user-images.githubusercontent.com/114786664/199711340-5cd73832-780b-4e32-8232-3717ff7899c0.png)
 
+---
+
 ## Configuration of the Bucket Policy
 
 * Appropriate bucket policy was  configured to allow access to the objects in the bucket. This is to ensure that the objects are accessible over the internet.
 
 ![bucket_policy](https://user-images.githubusercontent.com/114786664/199712494-8412410e-def8-46e5-b4f1-bbff895ae7f5.png)
 
+---
+
 ## CloudFront Configuration
 
-### Create a Cloudfront Distribution
+ ### Create a Cloudfront Distribution
 
 * Create a CloudFront distribution and the choose the S3 to serve as the origin for the distribution
 
@@ -52,7 +60,9 @@ Amazon CloudFront is a content delivery network operated by Amazon Web Services,
 
 ![cloudfront_url](https://user-images.githubusercontent.com/114786664/199730373-1821f6ed-a326-4855-990b-b093aa607ea3.png)
 
-### Custom error Response Configuration
+---
+
+ ### Custom error Response Configuration
 
 * The custom error response is configured to return error page if wrong content is requested. It should be configured as follow:
 
@@ -62,7 +72,9 @@ Amazon CloudFront is a content delivery network operated by Amazon Web Services,
 
 ![error_page](https://user-images.githubusercontent.com/114786664/199735682-e10aef98-6197-4479-b91f-993485d820ef.png)
 
-### Configuration of Geographical Restriction
+---
+
+ ### Configuration of Geographical Restriction
 
 * This to show how the CloudFront can be use to restrict access to content/s based on georaphical location
 * A particular country is chosen to be added to the block list as shown in the diagram below.
@@ -83,4 +95,6 @@ Amazon CloudFront is a content delivery network operated by Amazon Web Services,
 
 ![block_error](https://user-images.githubusercontent.com/114786664/199741395-321d878b-d71a-4523-bf80-64ade886c0b3.png)
 
-END
+---
+
+#### END
